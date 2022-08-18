@@ -1,5 +1,14 @@
-package org.example;public class Main {
+package org.example;
+
+import java.util.ArrayList;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MyHashMap <String> Vsevolod = new MyHashMap();
+        Vsevolod.put("Vsevolod", "Have no money");
+        Vsevolod.put("Denys", "Also have no money");
+        Vsevolod.remove("Denys");
+
+
     }
 }
